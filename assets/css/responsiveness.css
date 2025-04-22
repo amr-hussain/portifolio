@@ -1,0 +1,19 @@
+@media (max-width: 991.98px) {
+/* making sure the dropdown covers the below content rather than pushing it down */
+.container{
+    position: relative;
+  }
+  .navbar-collapse{
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    background-color: white ;
+    z-index: 1000; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  
+
+
+}
