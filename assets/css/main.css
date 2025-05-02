@@ -55,13 +55,11 @@ a {
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  background: var(--primary-color);
   background: var(--gradient-color);
   background-clip: text;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: var(--beige); /* fallback  in case it didn't render as expected*/
 }
-
 
 
 
@@ -71,11 +69,6 @@ h1 {
   font-weight: 800;
   color: var(--text-white);
   margin-bottom: 20px;
-}
-
-h1 span {
-  /*color: var(--primary-color);*/
-
 }
 
 h1 span {
@@ -265,7 +258,7 @@ p {
 .text-animate{
   font-family: "Oswald", sans-serif;
   display: inline-block;
-  background: url(./assets/images/fill.jpg) repeat-y;
+  background: url(../images/fill.jpg) repeat-y;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
