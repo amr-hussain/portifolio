@@ -55,11 +55,13 @@ a {
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  background: var(--primary-color);
   background: var(--gradient-color);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #fff; /* fallback */
 }
+
 
 
 
